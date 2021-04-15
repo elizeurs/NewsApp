@@ -15,15 +15,16 @@ struct NewsHome: View {
     newsListVM.load()
   }
   
-    var body: some View {
-      VStack {
-        NewsListHeader()
-      }
+  var body: some View {
+    VStack {
+      NewsListHeader()
+      NewsListView(newsCollection: self.newsListVM.news, imageData: self.newsListVM.imageData)
     }
+  }
 }
 
 struct NewsHome_Previews: PreviewProvider {
-    static var previews: some View {
-        NewsHome()
-    }
+  static var previews: some View {
+    NewsHome()
+  }
 }
