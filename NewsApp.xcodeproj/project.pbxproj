@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7564AF792628A9AD00D0AC91 /* NewsListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7564AF782628A9AD00D0AC91 /* NewsListHeader.swift */; };
+		7564AF7C2628ABE100D0AC91 /* NewsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7564AF7B2628ABE100D0AC91 /* NewsHome.swift */; };
 		75B27F1F26275F72001A7EC6 /* NewsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B27F1E26275F72001A7EC6 /* NewsAppApp.swift */; };
 		75B27F2126275F72001A7EC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B27F2026275F72001A7EC6 /* ContentView.swift */; };
 		75B27F2326275F75001A7EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B27F2226275F75001A7EC6 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7564AF782628A9AD00D0AC91 /* NewsListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListHeader.swift; sourceTree = "<group>"; };
+		7564AF7B2628ABE100D0AC91 /* NewsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHome.swift; sourceTree = "<group>"; };
 		75B27F1B26275F72001A7EC6 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B27F1E26275F72001A7EC6 /* NewsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppApp.swift; sourceTree = "<group>"; };
 		75B27F2026275F72001A7EC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				75B27F2026275F72001A7EC6 /* ContentView.swift */,
+				7564AF782628A9AD00D0AC91 /* NewsListHeader.swift */,
+				7564AF7B2628ABE100D0AC91 /* NewsHome.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -202,8 +208,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B27F3326276EBD001A7EC6 /* News.swift in Sources */,
+				7564AF792628A9AD00D0AC91 /* NewsListHeader.swift in Sources */,
 				75B27F432627BAE0001A7EC6 /* NewsListVM.swift in Sources */,
 				75B27F402627B83F001A7EC6 /* NewsViewModel.swift in Sources */,
+				7564AF7C2628ABE100D0AC91 /* NewsHome.swift in Sources */,
 				75B27F2126275F72001A7EC6 /* ContentView.swift in Sources */,
 				75B27F3D2627957E001A7EC6 /* NetworkManager.swift in Sources */,
 				75B27F382627724F001A7EC6 /* API.swift in Sources */,
